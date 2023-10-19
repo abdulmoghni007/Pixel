@@ -1,2 +1,2 @@
-# Pixelvide
+# Pixel
 It is internship
