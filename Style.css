@@ -1,0 +1,697 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    height: 150px width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar .center-navbar {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.navbar .center-navbar ul {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    gap: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar .center-navbar ul li a {
+    text-decoration: none;
+    font-size: 11px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar .center-navbar ul li a:hover {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right-navbar button {
+    background-color: white;
+    font-size: 14px;
+    padding: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right-navbar button:hover {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first {
+    height: 800px;
+    background-image: url("first_background.png");
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    margin-top: -100px;
+    color: white;
+    margin-left: 125px;
+    letter-spacing: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first p {
+    color: white;
+    font-size: 23px;
+    margin-left: 175px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.buttons button {
+    background-color: transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 5px;
+    border-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    margin-top: 145px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.buttons button:hover {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.second {
+    height: 868px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.second .sleft {
+    background-image: url("2.png");
+    height: 623.80px;
+    background-position: center center;
+    width: 450px;
+    background-size: 530px 623.80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.second .sleft .middleelement {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.second .sleft .middleelement h1 {
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#f1 {
+    margin-top: -15px;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+#f2 {
+    margin-top: -20px;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+.second .sright {
+    height: 623.80px;
+    width: 450px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.second .sright h3 {
+    color: lightgray;
+    letter-spacing: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.second .sright h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+}
+
+.second .sright hr {
+    float: left;
+    width: 20%;
+    height: 2px;
+    margin-left: 5 px;
+    background-color: black;
+}
+
+.second .sright p {
+    color: gray;
+    font-size: 15px;
+}
+
+.second .sright ul li {
+    color: green;
+    font-size: 25px;
+}
+
+.second .sright button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    letter-spacing: 2px;
+    background-color: white;
+}
+
+.second .sright button:hover {
+    background-color: black;
+    color: white;
+}
+
+.third {
+    height: 768px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.third h3 {
+    letter-spacing: 5px;
+    color: lightgray;
+    font-size: 12px;
+}
+
+.third h1 {
+    letter-spacing: 5px;
+}
+
+.third .thirdmidle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.third .thirdmidle .t1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 45px;
+    padding-top: 45px;
+    padding-right: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.third .thirdmidle .t1 img {
+    height: 175px;
+    width: 175px
+}
+
+.third .thirdmidle .t1 p {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.fourth {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fourth h3 {
+    color: lightgray;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.fourth h1 {
+    font-size: 40px;
+}
+
+.fourth hr {
+    width: 7%;
+    height: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: black;
+    float: left;
+}
+
+.fourth .fitem {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.fourth .fitem .fo1 img {
+    height: 400px;
+    width: 475px;
+}
+
+.fourth .fitem .fo1r {
+    height: 400px;
+    width: 475px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 15px;
+    letter-spacing: 5px;
+}
+
+.fourth .fitem .fo1r #first {
+    color: gray;
+}
+
+.fourth .fitem .fo1r #second {
+    font-size: 30px;
+}
+
+.fourth .fitem .fo1r #third {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fourth .fitem .fo1r button {
+    height: 46px;
+    width: 175px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.fourth .fitem .fo1r button:hover {
+    background-color: black;
+    color: white;
+}
+
+.fourth .fitem .fo2 {
+    height: 400px;
+    width: 475px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 15px;
+    letter-spacing: 5px;
+}
+
+.fourth .fitem .fo2 #first {
+    color: gray;
+}
+
+.fourth .fitem .fo2 #second {
+    font-size: 30px;
+}
+
+.fourth .fitem .fo2 #third {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fourth .fitem .fo2 button {
+    height: 46px;
+    width: 175px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.fourth .fitem .fo2 button:hover {
+    background-color: black;
+    color: white;
+}
+
+.fourth .fitem .fo2r img {
+    height: 575px;
+    width: 425px;
+    margin-left: 165px;
+    margin-top: -50px;
+}
+
+.fourth .fitem .fo3 img {
+    height: 400px;
+    width: 525px;
+}
+
+.fourth .fitem .fo3r {
+    height: 400px;
+    width: 475px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 15px;
+    letter-spacing: 5px;
+}
+
+.fourth .fitem .fo3r #first {
+    color: gray;
+}
+
+.fourth .fitem .fo3r #second {
+    font-size: 30px;
+}
+
+.fourth .fitem .fo3r #third {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fourth .fitem .fo3r button {
+    height: 46px;
+    width: 175px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.fourth .fitem .fo3r button:hover {
+    background-color: black;
+    color: white;
+}
+
+.fourth .fitem .fo4 {
+    height: 400px;
+    width: 475px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 15px;
+    letter-spacing: 5px;
+}
+
+.fourth .fitem .fo4 #first {
+    color: gray;
+}
+
+.fourth .fitem .fo4 #second {
+    font-size: 30px;
+}
+
+.fourth .fitem .fo4 #third {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fourth .fitem .fo4 button {
+    height: 46px;
+    width: 175px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.fourth .fitem .fo4 button:hover {
+    background-color: black;
+    color: white;
+}
+
+.fourth .fitem .fo4r img {
+    height: 575px;
+    width: 425px;
+    margin-left: 165px;
+    margin-top: -50px;
+}
+
+.fifth {
+    background-image: url(4.png);
+    width: 100%;
+    height: 698px;
+    background-position: center;
+    background-image: no-repeat;
+}
+
+.fifth .fiftelement {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.fifth .fiftelement img {
+    height: 100px;
+    width: 100px;
+}
+
+.fifth .fiftelement #pp {
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+}
+
+.fifth .fiftelement .author {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+.fifth .fiftelement .desigination {
+    color: white;
+}
+
+.sixth {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 165px;
+    margin-bottom: 165px;
+}
+
+.sixth img {
+    height: 700px;
+    width: 500px;
+}
+
+.sixth .forms {
+    display: flex;
+    flex-direction: column;
+    padding-left: 65px;
+}
+
+.sixth .forms form {
+    display: flex;
+    flex-direction: column;
+    color: lightgray;
+}
+
+.sixth .forms form #email {
+    height: 60px;
+    width: 400px;
+    padding: 1px 2px 1px 25px;
+    font-family: times, "Times New Roman", Times, serif;
+    margin-bottom: 30px;
+    color: lightgray;
+}
+
+.sixth .forms form #subject {
+    height: 60px;
+    width: 400px;
+    padding: 1px 2px 1px 25px;
+    font-family: times, "Times New Roman", Times, serif;
+    margin-bottom: 30px;
+    color: lightgray;
+}
+
+.sixth .forms form #message {
+    height: 120px;
+    width: 400px;
+    padding: 25px 2px 2px 25px;
+    font-family: times, "Times New Roman", Times, serif;
+    margin-bottom: 30px;
+    color: lightgray;
+}
+
+.sixth .forms form button {
+    height: 60px;
+    width: 150px;
+    padding: 1px 2px 1px 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.sixth .forms h3 {
+    color: lightgray;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+.sixth .forms h1 {
+    font-size: 45px;
+}
+
+.sixth .forms hr {
+    width: 35%;
+    height: 3px;
+    background-color: black;
+    float: left;
+    margin: 0px;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.seventh {
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.seventh .left {
+    padding-left: 200px;
+    padding-top: 120px;
+}
+
+.seventh .left ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.seventh .left ul li a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.seventh .right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 155px;
+    padding-top: 120px;
+}
+
+.seventh .right .firsts {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.seventh .right .firsts button {
+    margin-left: 25px;
+    height: 60px;
+    width: 120px;
+}
+
+.seventh .right .firsts button:hover {
+    background-color: black;
+    color: white;
+}
+
+.desp {
+    color: white;
+    letter-spacing: 2px;
+}
+
+.seventh .right hr {
+    width: 100%;
+    margin-top: 35px;
+}
+
+.rsecond {
+    display: flex;
+    flex-direction: row;
+}
+
+.rsecond .listing {
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.rsecond .listing h3 {
+    color: white;
+}
+
+.rsecond .listing p {
+    color: gray;
+}
+
+.rsecond .listing p:hover {
+    color: white;
+}
+
+.footer {
+    color: gray;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    margin-top: 114px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+
+}

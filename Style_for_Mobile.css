@@ -1,0 +1,287 @@
+@media (max-width: 479px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .first {
+        height: 700px;
+        width: 100%;
+        background-image: url("first_background.png");
+        background-position: center center;
+        display: flex;
+        margin-left: 0px;
+        padding-left: 0px;
+        justify-content: flex-start;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 0px;
+    }
+    .first h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        display: flex;
+        margin-left: -1px;
+        padding-left: 4px;
+        flex-direction: flex-start;
+        width: 100%;
+        color: white;
+        letter-spacing: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .first p {
+        /* color: white;
+        font-size: 23px;
+        margin-left: 175px;
+        font-family: 'Roboto', sans-serif; */
+        font-family: 'Playfair Display', serif;
+        font-size: 15px;
+        display: flex;
+        margin-left: -1px;
+        padding-left: 4px;
+        flex-direction: flex-start;
+        width: 65%;
+        color: white;
+        letter-spacing: 2px;
+        font-family: 'Roboto', sans-serif;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .buttons button {
+        background-color: transparent;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        letter-spacing: 5px;
+        border-color: white;
+        border-right-color: white;
+        border-bottom-color: white;
+        margin-left: -449px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .second {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        margin-bottom: 400px;
+        margin-left: 15px;
+        margin-right: 15px;
+        height: 100%;
+    }
+    .second .sleft .middleelement {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        background-color: white;
+        height: 100px;
+        width: 100px;
+        padding-left: 25px;
+        padding-top: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .third .thirdmidle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    .fourth {
+        margin-left: 25px;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 500px;
+    }
+    .fourth .fitem {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .fourth .fitem .fo1 img {
+        height: 475px;
+        width: 135%;
+    }
+    .fourth .fitem .fo1r {
+        height: 400px;
+        width: 475px;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 0px;
+        flex-direction: column;
+        text-align: left;
+        padding-top: 15px;
+        letter-spacing: 5px;
+    }
+    .fourth .fitem .fo1r #third {
+        font-size: 13px;
+        letter-spacing: 2px;
+        width: 75%;
+        color: gray;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth .fitem .fo2 {
+        font-size: 13px;
+        letter-spacing: 2px;
+        padding-left: 0px;
+        margin-left: 0px;
+        padding-top: 0px;
+        margin-top: -150px;
+        width: 75%;
+        color: gray;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth .fitem .fo2r img {
+        height: 475px;
+        width: 135%;
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+    .fourth .fitem .fo3 img {
+        height: 475px;
+        width: 135%;
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+    .fourth .fitem .fo3r {
+        font-size: 13px;
+        letter-spacing: 2px;
+        padding-left: 0px;
+        margin-left: 0px;
+        padding-top: 0px;
+        margin-top: 50px;
+        width: 75%;
+        color: gray;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth .fitem .fo4 {
+        font-size: 13px;
+        letter-spacing: 2px;
+        padding-left: 0px;
+        margin-left: 0px;
+        padding-top: 0px;
+        margin-top: -150px;
+        width: 75%;
+        color: gray;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth .fitem .fo4r img {
+        height: 475px;
+        width: 135%;
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+    .fifth {
+        background-image: url(4.png);
+        width: 95%;
+        margin-left: 25px;
+        height: 500px;
+        border-radius: 5%;
+        background-position: center;
+        background-image: no-repeat;
+    }
+    .fifth .fiftelement {
+        margin-top: 25px;
+        margin-bottom: 100px;
+        margin-left: 130px;
+        margin-right: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+    }
+    .sixth {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 165px;
+        margin-bottom: 165px;
+    }
+    .sixth img {
+        height: 475px;
+        width: 85%;
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+    .sixth .forms form #email {
+        height: 60px;
+        width: 350px;
+        padding: 1px 2px 1px 25px;
+        font-family: times, "Times New Roman", Times, serif;
+        margin-bottom: 30px;
+        color: lightgray;
+    }
+    .sixth .forms form #subject {
+        height: 60px;
+        width: 350px;
+        padding: 1px 2px 1px 25px;
+        font-family: times, "Times New Roman", Times, serif;
+        margin-bottom: 30px;
+        color: lightgray;
+    }
+    .sixth .forms form #message {
+        height: 120px;
+        width: 350px;
+        padding: 25px 2px 2px 25px;
+        font-family: times, "Times New Roman", Times, serif;
+        margin-bottom: 30px;
+        color: lightgray;
+    }
+    .seventh {
+        height: 1700px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
+    .seventh .left ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 25px;
+    }
+    .seventh .left ul li a {
+        text-decoration: none;
+        list-style: none;
+        margin-bottom: 25px;
+    }
+    .seventh .right .firsts {
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .desp {
+        margin-left: -130px;
+        color: white;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .seventh .right hr {
+        width: 150%;
+        margin-top: 35px;
+        margin-left: -120px;
+    }
+    .rsecond {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer {
+        color: gray;
+        width: 100%;
+        left: 0px;
+        right: 0px;
+        margin-top: 114px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        margin-left: -100px;
+    }
+}
+
+
+}
