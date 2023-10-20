@@ -11,10 +11,10 @@
         background-position: center center;
         display: flex;
         margin-left: 0px;
-        padding-left: 25px;
+        padding-left: 50px;
         justify-content: flex-start;
         font-family: 'Roboto', sans-serif;
-        padding-left: 0px;
+        
     }
     .first h1 {
         font-family: 'Playfair Display', serif;
